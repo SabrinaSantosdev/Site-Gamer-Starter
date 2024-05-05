@@ -1,0 +1,143 @@
+* {
+    color: rgba(0, 0, 0, 0.897);
+    box-sizing: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(169, 75, 247);
+    padding: 16px 150px;
+}
+
+header li {
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container a {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: rgb(201, 0, 241);
+}
+
+#economy h2 {
+    color: green;
+}
+
+.creation-date {
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    color: #fff;
+    background-color: blueviolet;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a {
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+}
+.articles article h3 {
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+
+#sports {
+    background-color: rgba(137, 43, 226, 0.13);
+    padding: 150px;
+}
+
+#economy .articles article a {
+    background-color: green;
+}
+
+#economy {
+    background-color: rgba(92, 255, 106, 0.144);
+    padding: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+/*creation-date | padding | box sazing*/
+
+/*h1 {
+    color: green;
+}
+
+#esportes h2 {              /* ID: é um identificador único para um elemento HTML. não pode haver dois elementos com o mesmo ID. 
+    color: purple;
+}*/
+
+/*.creation-date {           /* Class: é um identificador que pode ser aplicado a vários elementos HTML. 
+    color: gray;
+}*/
+
+/* search: box sizing | padding */
+
+/* ID: é um identificador único para um elemento HTML. não pode haver dois elementos com o mesmo ID. 
+
+/* Class: é um identificador que pode ser aplicado a vários elementos HTML. 
+
